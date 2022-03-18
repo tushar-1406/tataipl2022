@@ -1,0 +1,29 @@
+.outerborder{
+    box-shadow: 4px 4px 4px 4px #b4b4b4;
+
+}
+.inner{
+    border-style: solid;
+    border-radius: 75px;
+    border-width: 1px;
+    border-color:midnightblue;
+}
+@media screen and (max-width:550px) {
+
+   .col-5 img{
+        height: 30px;
+        width: 30px;
+    }
+    .h5{
+        font-size: 5px;
+        font-weight: 900;
+    }
+    #vs{
+        font-size: 17px;
+    }
+    h4{
+        font-weight: 600;
+        font-size: 7px;
+
+    }
+}

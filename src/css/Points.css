@@ -1,0 +1,27 @@
+
+td{
+    text-align: center;
+    font-weight: bold;
+}
+th{
+    
+    text-align: center;
+}
+@media screen and (max-width: 550px) {
+    tr{
+        font-size: 8px;
+                
+    }
+
+
+    th{
+        font-size: 8px;
+    }
+    td img{
+        height:20px;
+        width:20px;
+    }
+    
+}
+
+

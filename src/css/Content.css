@@ -1,0 +1,47 @@
+@media screen and (min-width: 480px) {
+    /* .main{
+        height: 300px;
+    } */
+    .c{
+        width: 33rem;
+        
+    }
+    .c img{
+
+        height: 20rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .main{
+       height: 300px;
+    }
+    .c{
+        width: 17rem;
+        
+    }
+    .c img{
+        height: 12rem;
+    }
+    
+}
+.column{
+    overflow: hidden;
+}
+.c{
+    overflow: hidden;
+    box-shadow: 3px 10px 8px 10px #b4b4b4;
+}
+.c img:hover{
+    transform: scale(1.5); 
+    
+    /* overflow: hidden; */
+}
+.c img{
+    overflow: hidden;
+    transition: transform .3s;
+}
+.imgoverflow{
+    overflow: hidden;
+}
+
+
