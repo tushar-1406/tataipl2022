@@ -2218,8 +2218,8 @@ function App() {
 
 
         <Routes>
-          {/* <Route exact path="/"  element={<Content teams={ipl2022.teams} getTeam={getTeam} />} /> */}
-         { ipl2022 && <Route exact path="/"  element={<Content teams={ipl2022.teams} getTeam={getTeam} />} />}
+          <Route exact path="/"  element={<Content getTeam={getTeam} />} />
+         {/* { ipl2022 && <Route exact path="/"  element={<Content teams={ipl2022.teams} getTeam={getTeam} />} />} */}
          
           
           {/* <Route exact path="/pointstable" element={<Points points={ipl2022.teams} />} /> */}
